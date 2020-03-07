@@ -1,0 +1,25 @@
+{
+  "question": "Let the Illuminator find you a protein with special powers. What special powers do proteins have?",
+  "answers": [
+    {
+      "answer": "They help us to rock and roll",
+      "trigger": "Twitchin"
+    },
+    {
+      "answer": "They control water",
+      "trigger": "Aquaporin-5"
+    },
+    {
+      "answer": "They help us to love",
+      "trigger": "Sorcin"
+    },
+    {
+      "answer": "They make our brains fit in more information",
+      "trigger": "vNGF"
+    },
+    {
+      "answer": "They keep us strong and stable",
+      "trigger": "Brick1"
+    }
+  ]
+}

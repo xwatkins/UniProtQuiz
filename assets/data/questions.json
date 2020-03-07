@@ -1,0 +1,130 @@
+[
+  {
+    "question": "Do proteins have names",
+    "answers": [
+      {
+        "answer": "Yes"
+      },
+      {
+        "answer": "No",
+        "correct": true
+      },
+      {
+        "answer": "Do they have nick names too?",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Do proteins do different things?",
+    "answers": [
+      {
+        "answer": "Yes",
+        "correct": true
+      },
+      {
+        "answer": "No"
+      },
+      {
+        "answer": "We eat proteins in different ways",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Can proteins help animals to move?",
+    "answers": [
+      {
+        "answer": "Yes",
+        "correct": true
+      },
+      {
+        "answer": "No"
+      },
+      {
+        "answer": "Yes, but only if there is music playing"
+      }
+    ]
+  },
+  {
+    "question": "How can we find out what a protein does?",
+    "answers": [
+      {
+        "answer": "Use an online database such as UniProt",
+        "correct": true,
+        "trigger": "Batman"
+      },
+      {
+        "answer": "Ask a policeman"
+      },
+      {
+        "answer": "By doing experiments in a laboratory",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Do proteins work together?",
+    "answers": [
+      {
+        "answer": "Yes, if they like each other",
+        "correct": true
+      },
+      {
+        "answer": "No, never (Sausage/Fandango)",
+        "trigger": "Fandango"
+      },
+      {
+        "answer": "Proteins don’t 'work'"
+      }
+    ]
+  },
+  {
+    "question": "What is a protein?",
+    "answers": [
+      {
+        "answer": "A food group",
+        "correct": true
+      },
+      {
+        "answer": "Large biological molecules made up of amino acids",
+        "trigger": "Batman",
+        "correct": true
+      },
+      {
+        "answer": "An insect"
+      }
+    ]
+  },
+  {
+    "question": "Do we need proteins?",
+    "answers": [
+      {
+        "answer": "Yes, they are essential for all life",
+        "correct": true
+      },
+      {
+        "answer": "No"
+      },
+      {
+        "answer": "Yes, but I’d rather have a hug (Sausage/Fandango)",
+        "trigger": "Fandango"
+      }
+    ]
+  },
+  {
+    "question": "Are there different types of protein?",
+    "answers": [
+      {
+        "answer": "Yes, and they all do different things",
+        "correct": true
+      },
+      {
+        "answer": "I don’t know"
+      },
+      {
+        "answer": "Yes, but I prefer walnuts"
+      }
+    ]
+  }
+]
