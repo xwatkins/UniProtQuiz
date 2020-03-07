@@ -9,14 +9,11 @@ import getQuestionsForPlayer from "../utils/QuestionUtils";
 import { QuizAnswer } from "../components/QuizAnswer";
 
 const QUESTION_NUMBER = 5;
+let questions = getQuestionsForPlayer(QUESTION_NUMBER);
 
 export default function HomeScreen() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [quizAnswer, setQuizAnswer] = useState(null);
-
-  console.log("should run once");
-
-  let questions = getQuestionsForPlayer(QUESTION_NUMBER);
 
   const reset = () => {
     setSelectedIndex(0);
