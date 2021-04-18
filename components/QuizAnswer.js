@@ -7,8 +7,17 @@ export function QuizAnswer({ name }) {
   const { description } = answers.find(answer => answer.name === name);
   return (
     <View>
-      <Text>{name}</Text>
-      <Text>{description}</Text>
+      <Text style={styles.quizAnswerItem}>{name}</Text>
+      <Text style={styles.quizAnswerItem}>{description}</Text>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  quizAnswerItem: {
+    textAlign: "center",
+    color: "#F2BD1D",
+    fontWeight: "bold",
+    fontSize: 30
+  }
+});

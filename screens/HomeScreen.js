@@ -58,7 +58,19 @@ export default function HomeScreen() {
           }}
         >
           <View>
-            <Text>Reset</Text>
+            <Text
+              style={{
+                color: "white",
+                fontSize: 20,
+                backgroundColor: "red",
+                width: 100,
+                padding: 30,
+                textAlign: "center",
+                borderRadius: 10
+              }}
+            >
+              Reset
+            </Text>
           </View>
         </TouchableOpacity>
       </ScrollView>
@@ -86,7 +98,7 @@ function DevelopmentModeNotice() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff"
+    backgroundColor: "#080B0D"
   },
   developmentModeText: {
     marginBottom: 20,

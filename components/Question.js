@@ -1,5 +1,11 @@
 import React from "react";
-import { View, Text, Button, FlatList, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  FlatList,
+  StyleSheet,
+  TouchableOpacity
+} from "react-native";
 
 export function Question({
   question,
@@ -22,12 +28,17 @@ export function Question({
     <View style={styles.questionContainer}>
       <Text style={styles.questionTitle}>{question.question}</Text>
       <FlatList
+        numColumns="2"
         data={question.answers}
         renderItem={({ item }) => (
-          <Button
-            onPress={() => handleButtonPress(item.trigger)}
-            title={item.answer}
-          />
+          <View style={styles.answerButtonContainer}>
+            <TouchableOpacity
+              onPress={() => handleButtonPress(item.trigger)}
+              style={styles.answerButton}
+            >
+              <Text style={styles.answerButtonText}>{item.answer}</Text>
+            </TouchableOpacity>
+          </View>
         )}
         keyExtractor={item => item.answer}
       />
@@ -42,8 +53,22 @@ const styles = StyleSheet.create({
   },
   questionTitle: {
     textAlign: "center",
-    color: "blue",
+    color: "#F2BD1D",
     fontWeight: "bold",
     fontSize: 30
+  },
+  answerButtonContainer: {
+    margin: 5,
+    flex: 1
+  },
+  answerButton: {
+    padding: 30,
+    backgroundColor: "#F2BD1D"
+  },
+  answerButtonText: {
+    color: "#080B0D",
+    fontWeight: "bold",
+    textAlign: "center",
+    fontSize: 15
   }
 });
